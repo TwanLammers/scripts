@@ -8,7 +8,9 @@ You can add this code directly above the Google Tag Manager script that is direc
 <script>
 dataLayer = dataLayer || [];
 dataLayer.push({
- 'cid': <number of the specific user>
+ 'visitorId': <number of the specific visitor>,
+ 'profileId': <number of profile that is logged in>,
+ 'audienceCode': <code of the audience>, // for example MP_DG01
  });
 </script>
 ```
